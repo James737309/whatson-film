@@ -1,0 +1,649 @@
+# date|time|channel|title|year|genres(codes)|cert   (cert blank = TBC)
+# codes: A Action, Ad Adventure, An Animation, X Christmas, C Comedy, Cr Crime, D Drama, F Family, Fa Fantasy, H Horror, R Romance, S Sci-fi, T Thriller, W War, We Western, Do Documentary
+11-05|00:00|BBC One|Office Christmas Party|2016|C,X|15
+11-05|00:20|Talking Pictures TV|Confessions of a Driving Instructor|1976|C|
+11-05|01:00|Movies24|Christmas Above the Clouds|2025|R,X|
+11-05|01:10|Legend Xtra|Maximum Conviction|2012|A|
+11-05|01:30|Film4|Limbo|2020|D,C|12
+11-05|01:30|Legend|The Beguiled|1971|D,T|
+11-05|01:45|GREAT! Mystery|The House on the Hill|2019|T|
+11-05|02:00|GREAT! Movies|Jet Stream|2013|A,S|
+11-05|02:05|Talking Pictures TV|To Dorothy a Son|1954|C|
+11-05|03:00|Movies24|Season's Greetings From…|2024|R,X|
+11-05|03:05|GREAT! Action|Seattle Superstorm|2012|A,S|
+11-05|03:10|Legend Xtra|MacShayne: Final Roll of the Dice|1994|Cr,D|
+11-05|03:25|GREAT! Mystery|Girlfriend Killer|2017|T|
+11-05|03:30|Legend|Robin Hood: The Rebellion|2018|A,Ad|
+11-05|04:21|GREAT! Movies|Johnson County War – Part 1|2002|We|
+11-05|05:54|GREAT! Movies|Johnson County War – Part 2|2002|We|
+11-05|06:35|Talking Pictures TV|Doublecross|1955|Cr,D|
+11-05|07:00|Movies24|The Snow Must Go On|2022|R,X|
+11-05|08:05|Talking Pictures TV|The Secret Six|1931|Cr|
+11-05|08:10|GREAT! Mystery|Garage Sale Mysteries: Murder in D Minor|2018|T|
+11-05|09:00|Legend Xtra|Ape vs Monster|2021|A,S|
+11-05|09:00|Movies24|An Alpine Holiday|2025|R,X|
+11-05|09:17|GREAT! Movies|Four Fast Guns|1960|We|
+11-05|09:45|Talking Pictures TV|Man from Tangier|1957|Cr,T|
+11-05|11:00|Film4|The Mouse That Roared|1959|C|U
+11-05|11:00|Legend|Meteor Apocalypse|2010|A,S|
+11-05|11:00|Movies24|Holiday Crashers|2023|R,X|
+11-05|11:05|Talking Pictures TV|Appointment with Venus|1951|W,C|
+11-05|11:49|GREAT! Movies|Treacherous|2018|T|
+11-05|12:00|Legend Xtra|MacShayne: Final Roll of the Dice|1994|Cr,D|
+11-05|12:20|5Action|Seminole|1953|We|
+11-05|12:40|Film4|Jubal|1956|We|
+11-05|13:00|GREAT! Action|The Vikings|1958|Ad,A|
+11-05|13:00|Legend|Gunsmoke: Return to Dodge|1987|We|
+11-05|13:00|Movies24|A Christmas Intern|2023|R,X|
+11-05|13:24|GREAT! Movies|Time of Death|2013|T|
+11-05|13:40|Channel 5|Home Sweet Christmas|2024|R,X|
+11-05|14:00|Legend Xtra|American Warships|2012|A,S|
+11-05|14:05|5Action|Valdez Is Coming|1971|We|
+11-05|14:35|Talking Pictures TV|Whistle Down the Wind|1961|D,F|PG
+11-05|14:45|Film4|Those Magnificent Men in Their Flying Machines|1965|C,Ad|U
+11-05|15:00|Legend|Buckskin|1968|We|
+11-05|15:00|Movies24|A Cowboy Christmas Romance|2023|R,X|
+11-05|15:04|GREAT! Movies|The Killer Downstairs|2019|T|
+11-05|15:20|Channel 5|The Christmas Crashers|2022|R,X|
+11-05|15:30|GREAT! Action|Abilene Town|1946|We|
+11-05|16:40|GREAT! Movies|Killer Mom|2017|T|
+11-05|17:00|Legend Xtra|Martian Land|2015|A,S|
+11-05|17:00|Movies24|My Christmas Hero|2023|R,X|
+11-05|17:00|Talking Pictures TV|A Fire Has Been Arranged|1935|C|
+11-05|17:25|Film4|The Longest Day|1962|W|PG
+11-05|18:14|GREAT! Movies|Death by Friendship|2020|T|
+11-05|19:00|Movies24|To Have and to Holiday|2024|R,X|
+11-05|19:47|GREAT! Movies|A Murderer Upstairs|2017|T|
+11-05|20:00|BBC Four|Battle of Britain|1969|W|
+11-05|20:15|BBC Three|Lara Croft Tomb Raider: The Cradle of Life|2003|A,Ad|12
+11-05|21:00|Film4|Attack the Block|2011|S,C|15
+11-05|21:00|GREAT! Action|Kiss of the Dragon|2001|A|18
+11-05|21:00|GREAT! TV|Carry On Nurse|1959|C|PG
+11-05|21:00|Legend|Pathfinder|2007|A|15
+11-05|21:00|Legend Xtra|xXx|2002|A|12
+11-05|21:00|Movies24|Believe in Christmas|2024|R,X|
+11-05|21:20|Talking Pictures TV|The Undertaker|2023|T|
+11-05|21:21|GREAT! Movies|Master Gardener|2022|T|15
+11-05|22:00|GREAT! Mystery|An Aurora Teagarden Mystery: A Very Foul Play|2019|T|
+11-05|22:10|BBC Four|Carrie|1976|H|18
+11-05|22:45|Film4|Talk to Me|2022|H|15
+11-05|22:45|ITV1|The World Is Not Enough|1999|A|12
+11-05|23:00|Movies24|Polar Opposites|2025|R,X|
+11-05|23:10|Legend|Centurion|2010|A,W|15
+11-05|23:10|Talking Pictures TV|Bad Blood|1981|D,Cr|
+11-05|23:15|BBC Three|The Hunger Games: Catching Fire|2013|S,A|12
+11-05|23:19|GREAT! Movies|NYC: Tornado Terror|2008|A,S|
+11-05|23:30|Legend Xtra|Fugitives|2015|T|
+11-06|00:35|Film4|Public Enemies|2009|Cr,D|15
+11-06|00:55|GREAT! Movies|Jack Hunter and the Lost Treasure of Ugarit|2008|Ad|
+11-06|01:00|Movies24|The Christmas Quest|2024|R,X|
+11-06|01:10|Legend|Hot Seat|2022|A,T|
+11-06|01:20|Talking Pictures TV|The Disappearance of Flight 412|1974|S,T|
+11-06|01:30|Legend Xtra|Stagecoach|2016|We|
+11-06|01:55|GREAT! Mystery|Secrets of a Gold Digger Killer|2021|T|
+11-06|02:30|Channel 4|Swan Song|2021|S,D|
+11-06|02:39|GREAT! Movies|Jack Hunter and the Quest for Akhenaten's Tomb|2008|Ad|
+11-06|03:00|GREAT! Action|NYC: Tornado Terror|2008|A,S|
+11-06|03:00|Movies24|Deck the Halls on Cherry Lane|2024|R,X|
+11-06|03:05|Legend|Best of the Best|1989|A|
+11-06|03:20|Legend Xtra|Martian Land|2015|A,S|
+11-06|03:35|GREAT! Mystery|Ring of Deceit|2009|T|
+11-06|04:27|GREAT! Movies|Abilene Town|1946|We|
+11-06|06:05|Talking Pictures TV|Algiers|1938|R,Cr|
+11-06|06:08|GREAT! Movies|Angel and the Badman|1947|We|
+11-06|07:00|Movies24|A Make or Break Holiday|2025|R,X|
+11-06|07:58|GREAT! Movies|The Quick and the Dead|1963|We|
+11-06|08:00|Talking Pictures TV|Mark of the Phoenix|1957|Cr,T|
+11-06|08:10|GREAT! Mystery|An Aurora Teagarden Mystery: A Lesson in Murder|2024|T|
+11-06|09:00|Legend Xtra|American Warships|2012|A,S|
+11-06|09:00|Movies24|All I Need for Christmas|2024|R,X|
+11-06|09:36|GREAT! Movies|Hellgate|1952|We|
+11-06|10:15|Talking Pictures TV|Make Me an Offer|1954|C|
+11-06|11:00|Film4|Broken Lance|1954|We|
+11-06|11:00|Legend|Mega Shark vs. Kolossus|2015|A,S|
+11-06|11:00|Movies24|Christmas Under the Lights|2024|R,X|
+11-06|11:34|GREAT! Movies|The Daughter Stalker|2020|T|
+11-06|12:00|Legend Xtra|Martian Land|2015|A,S|
+11-06|12:25|5Action|Man with the Gun|1955|We|
+11-06|12:35|Talking Pictures TV|Dusty Ermine|1936|Cr,T|
+11-06|12:55|Film4|Decision at Sundown|1957|We|
+11-06|13:00|GREAT! Action|The Texican|1966|We|
+11-06|13:00|Movies24|Santa Tell Me|2024|R,X|
+11-06|13:40|Channel 5|A Christmas Recipe for Rivalry|2022|R,X|
+11-06|14:00|Legend Xtra|Meteor Moon|2020|A,S|
+11-06|14:10|5Action|Dawn at Socorro|1954|We|
+11-06|14:30|Film4|Leave Her to Heaven|1945|D,T|
+11-06|14:49|GREAT! Movies|Treacherous|2018|T|
+11-06|14:50|Talking Pictures TV|My Brother's Keeper|1948|Cr,D|
+11-06|15:00|Movies24|Holiday Touchdown: A Bills Love Story|2025|R,X|
+11-06|15:05|GREAT! Action|Buck and the Preacher|1972|We|
+11-06|15:20|Channel 5|Our Family Christmas Memories|2022|R,X|
+11-06|16:25|GREAT! Movies|Island of Shadows|2020|T|
+11-06|16:40|Film4|Sink the Bismarck!|1960|W|U
+11-06|17:00|Legend Xtra|Megafault|2009|A,S|
+11-06|17:00|Movies24|A Grand Ole Opry Christmas|2025|R,X|
+11-06|17:58|GREAT! Movies|Cruel Fixation|2019|T|
+11-06|18:00|Talking Pictures TV|The Young Mr Pitt|1942|D|
+11-06|18:40|Film4|The Comancheros|1961|We|
+11-06|19:00|Movies24|The Secret Gifts of Christmas|2023|R,X|
+11-06|19:31|GREAT! Movies|Time of Death|2013|T|
+11-06|20:15|BBC Three|Wallace & Gromit: The Curse of the Were-Rabbit|2005|An,F,C|U
+11-06|21:00|5Action|The Quick and the Dead|1995|We,A|15
+11-06|21:00|E4|The Other Woman|2014|C|12
+11-06|21:00|Film4|Django Unchained|2012|We,D|18
+11-06|21:00|GREAT! Action|Lawman|1971|We|
+11-06|21:00|GREAT! TV|Sleeping with the Enemy|1991|T|15
+11-06|21:00|Legend|Zero Dark Thirty|2012|T,W|15
+11-06|21:00|Legend Xtra|The Foreigner|2017|A,T|15
+11-06|21:00|Movies24|A Keller Christmas Vacation|2025|C,X|
+11-06|21:05|ITV4|Under Siege 2: Dark Territory|1995|A|15
+11-06|21:05|Talking Pictures TV|Four Sided Triangle|1953|S|
+11-06|22:00|BBC Two|Planes, Trains and Automobiles|1987|C|15
+11-06|22:50|Talking Pictures TV|Body Double|1984|T|18
+11-06|22:51|GREAT! Movies|Seattle Superstorm|2012|A,S|
+11-06|23:00|Movies24|Season's Greetings From…|2024|R,X|
+11-06|23:20|ITV1|John Wick|2014|A,T|15
+11-06|23:25|Legend Xtra|Best of the Best 2|1993|A|
+11-06|23:30|BBC Two|Their Finest|2016|D,C|12
+11-06|23:35|BBC Three|Office Christmas Party|2016|C,X|15
+11-07|00:00|GREAT! Mystery|Aurora Teagarden Mysteries: Haunted by Murder|2022|T|
+11-07|00:10|Channel 4|Sexy Beast|2000|Cr|18
+11-07|00:10|Legend|The Wild Geese|1978|A,W|
+11-07|00:20|Film4|Bone Tomahawk|2015|We,H|18
+11-07|00:26|GREAT! Movies|Deadly Vows|2017|T|
+11-07|01:00|Movies24|The Snow Must Go On|2022|R,X|
+11-07|01:05|Talking Pictures TV|Tomorrow|1972|D|
+11-07|01:30|Legend Xtra|Burning Rubber|2019|A|
+11-07|01:50|GREAT! Mystery|The Wrong Daughter|2018|T|
+11-07|02:02|GREAT! Movies|Super Eruption|2011|A,S|
+11-07|02:45|Legend|The Fan|1996|T|18
+11-07|03:00|Movies24|An Alpine Holiday|2025|R,X|
+11-07|03:05|GREAT! Action|Super Eruption|2011|A,S|
+11-07|03:10|Talking Pictures TV|The Most Dangerous Game|1932|T,Ad|
+11-07|03:15|Legend Xtra|Megafault|2009|A,S|
+11-07|03:30|GREAT! Mystery|Witness Unprotected|2018|T|
+11-07|03:37|GREAT! Movies|Bad Man's River|1971|We|
+11-07|05:19|GREAT! Movies|The Proud Rebel|1958|We|
+11-07|06:00|Talking Pictures TV|Minesweeper|1943|W|
+11-07|07:00|Movies24|Holiday Crashers|2023|R,X|
+11-07|07:09|GREAT! Movies|McLintock!|1963|We,C|
+11-07|07:20|Talking Pictures TV|Talk About Jacqueline|1942|C,R|
+11-07|08:10|GREAT! Mystery|An Aurora Teagarden Mystery: Dead Over Heels|2017|T|
+11-07|09:00|Movies24|A Dance in the Snow|2024|R,X|
+11-07|09:24|GREAT! Movies|Death Rides a Horse|1967|We|
+11-07|11:00|Film4|Earth vs the Flying Saucers|1956|S|
+11-07|11:00|Movies24|Single on the 25th|2025|R,X|
+11-07|11:20|BBC Two|Grand Hotel|1932|D,R|
+11-07|11:26|GREAT! Movies|Death by Friendship|2020|T|
+11-07|11:55|GREAT! Mystery|Signed, Sealed, Delivered: To the Altar|2016|R|
+11-07|12:00|GREAT! Action|The Vikings|1958|Ad,A|
+11-07|12:00|Legend|Gunsmoke: Return to Dodge|1987|We|
+11-07|12:00|Talking Pictures TV|Biggles: Adventures in Time|1986|Ad,S|
+11-07|12:30|Channel 5|Cloudy with a Chance of Christmas|2022|R,X|
+11-07|12:45|Film4|A Christmas Carol|1984|D,F,X|U
+11-07|12:59|GREAT! Movies|Wish You Were Dead|2017|T|
+11-07|13:00|Movies24|Three Wisest Men|2025|C,X|
+11-07|13:10|BBC Two|Ice Station Zebra|1968|T,W|U
+11-07|13:45|Talking Pictures TV|HMS Defiant|1962|W,Ad|
+11-07|13:50|GREAT! Mystery|An Aurora Teagarden Mystery: A Bundle of Trouble|2017|T|
+11-07|13:50|Legend|Cowboy|1958|We|
+11-07|14:15|ITV2|Rio|2011|An,F|U
+11-07|14:20|Channel 5|Making Spirits Bright|2021|R,X|
+11-07|14:25|GREAT! Action|Lawman|1971|We|
+11-07|14:34|GREAT! Movies|The Daughter Stalker|2020|T|
+11-07|14:50|Film4|Miracle on 34th Street|1994|F,X|U
+11-07|15:00|Legend Xtra|Beware! The Blob|1972|H,C|
+11-07|15:00|Movies24|Believe in Christmas|2024|R,X|
+11-07|15:40|Legend|Dakota Incident|1956|We|
+11-07|15:45|GREAT! Mystery|An Aurora Teagarden Mystery: A Lesson in Murder|2024|T|
+11-07|16:00|E4|Christmas with the Kranks|2004|C,X|PG
+11-07|16:05|Channel 5|A Very Yorkshire Christmas|2019|R,X|
+11-07|16:10|ITV2|Hotel Transylvania: Transformania|2022|An,F|U
+11-07|16:15|GREAT! Movies|Dating to Kill|2019|T|
+11-07|16:20|Talking Pictures TV|The Quatermass Xperiment|1955|S,H|
+11-07|16:35|GREAT! Action|40 Guns to Apache Pass|1967|We|
+11-07|17:00|5Action|In Old California|1942|We|
+11-07|17:00|Legend Xtra|Coast of Skeletons|1964|Ad|
+11-07|17:00|Movies24|This Time Each Year|2024|R,X|
+11-07|17:05|Film4|10 Things I Hate About You|1999|C,R|12
+11-07|17:25|Legend|Silverado|1985|We|PG
+11-07|17:40|GREAT! Mystery|An Aurora Teagarden Mystery: A Very Foul Play|2019|T|
+11-07|17:53|GREAT! Movies|Killer Mom|2017|T|
+11-07|17:55|ITV2|Bruce Almighty|2003|C|12
+11-07|18:00|E4|Jingle All the Way|1996|F,C,X|PG
+11-07|18:40|GREAT! Action|Bandolero!|1968|We|
+11-07|18:55|5Action|The Fighting Kentuckian|1949|We|
+11-07|18:55|Film4|Rise of the Planet of the Apes|2011|S,A|12
+11-07|19:00|Legend Xtra|Ape vs Monster|2021|A,S|
+11-07|19:00|Movies24|The Christmas Quest|2024|R,X|
+11-07|19:27|GREAT! Movies|The House on the Hill|2019|T|
+11-07|19:35|GREAT! Mystery|Hailey Dean Mystery: Deadly Estate|2017|T|
+11-07|20:00|ITV2|Dune: Part One|2021|S,Ad|12
+11-07|21:00|5Action|The Taking of Pelham One Two Three|1974|T,Cr|15
+11-07|21:00|5Star|Out of Time|2003|T|
+11-07|21:00|Film4|Venom: Let There Be Carnage|2021|A,S|15
+11-07|21:00|GREAT! Action|The Punisher|2004|A|18
+11-07|21:00|Legend|Into the Sun|2005|A|
+11-07|21:00|Legend Xtra|The Client|1994|T|15
+11-07|21:00|Movies24|Holiday Touchdown: A Chiefs Love Story|2024|R,X|
+11-07|21:02|GREAT! Movies|The Ice Road|2021|A,T|15
+11-07|21:10|BBC Four|The Bride Wore Black|1968|T|
+11-07|21:10|Talking Pictures TV|Prudence and the Pill|1968|C|
+11-07|21:25|GREAT! Mystery|Hailey Dean Mystery: Murder, With Love|2016|T|
+11-07|22:00|ITV4|The Grey|2011|T,A|15
+11-07|22:50|Film4|The Creator|2023|S,A|12
+11-07|22:54|GREAT! Movies|Jet Stream|2013|A,S|
+11-07|23:00|Legend|Street Kings|2008|Cr,T|15
+11-07|23:00|Movies24|A Cowboy Christmas|2024|R,X|
+11-07|23:30|Legend Xtra|Hidden Agenda|2001|T|
+11-07|23:50|BBC Two|The Taste of Things|2023|D,R|12
+11-08|00:05|BBC One|Rush|2013|D|15
+11-08|00:05|Channel 4|Knock at the Cabin|2023|H,T|15
+11-08|00:25|GREAT! Movies|Jack Hunter and the Star of Heaven|2008|Ad|
+11-08|00:35|Talking Pictures TV|Confessions of a Window Cleaner|1974|C|
+11-08|01:00|Movies24|A Make or Break Holiday|2025|R,X|
+11-08|01:10|GREAT! Mystery|A Teacher's Obsession|2015|T|
+11-08|01:15|Legend|Blunt Force Trauma|2015|A|
+11-08|01:30|Film4|The Artifice Girl|2022|S,T|
+11-08|01:30|Legend Xtra|Aftermath|2017|D,T|15
+11-08|02:13|GREAT! Movies|NYC: Tornado Terror|2008|A,S|
+11-08|02:20|Talking Pictures TV|Rentadick|1972|C|
+11-08|03:00|Movies24|All I Need for Christmas|2024|R,X|
+11-08|03:10|Legend|Mojave|2015|T|
+11-08|03:20|Legend Xtra|American Warships|2012|A,S|
+11-08|03:49|GREAT! Movies|McLintock!|1963|We,C|
+11-08|04:10|Talking Pictures TV|The Girl on the Pier|1953|Cr|
+11-08|06:00|Talking Pictures TV|Enter the Lone Ranger|1949|We|
+11-08|06:04|GREAT! Movies|Kentucky Rifle|1955|We|
+11-08|07:00|Movies24|Santa Tell Me|2024|R,X|
+11-08|07:32|GREAT! Movies|War of the Wildcats|1943|We|
+11-08|08:00|Talking Pictures TV|Paratrooper|1954|W|
+11-08|09:00|Movies24|Christmas Under the Lights|2024|R,X|
+11-08|10:00|BBC Two|Swallows and Amazons|2016|F,Ad|PG
+11-08|11:00|Film4|Sherlock Holmes and the Secret Weapon|1942|Cr|
+11-08|11:00|Movies24|Holiday Touchdown: A Bills Love Story|2025|R,X|
+11-08|11:05|Talking Pictures TV|Carve Her Name with Pride|1958|W,D|
+11-08|11:16|GREAT! Movies|Cruel Fixation|2019|T|
+11-08|11:30|Channel 5|Ghosts of Christmas Always|2023|R,X|
+11-08|11:30|ITV4|The Horse Soldiers|1959|We,W|
+11-08|12:00|GREAT! Action|Gung Ho!|1943|W|
+11-08|12:00|Legend|Sahara|1943|W|
+11-08|12:25|Film4|Arthur Christmas|2011|An,F,X|U
+11-08|12:50|GREAT! Movies|A Murderer Upstairs|2017|T|
+11-08|13:00|5Action|Rio Lobo|1970|We|
+11-08|13:00|Movies24|A Grand Ole Opry Christmas|2025|R,X|
+11-08|13:15|5USA|Columbo: Undercover|1994|Cr|
+11-08|13:20|Channel 5|Christmas on Mistletoe Farm|2022|F,X|
+11-08|13:35|Talking Pictures TV|Nine Men|1943|W|
+11-08|13:45|BBC One|War Horse|2011|D,W|12
+11-08|13:55|Legend|Lancaster Skies|2019|W|
+11-08|14:00|GREAT! Action|Patton|1970|W|
+11-08|14:23|GREAT! Movies|Death by Friendship|2020|T|
+11-08|14:25|Film4|Tooth Fairy|2010|F,C|PG
+11-08|14:45|ITV2|Rio 2|2014|An,F|U
+11-08|15:00|Legend Xtra|Apocalypse of Ice|2020|A,S|
+11-08|15:05|Channel 4|Marley & Me|2008|F,C|PG
+11-08|15:10|Channel 5|We Wish You a Married Christmas|2023|R,X|
+11-08|15:15|5USA|Columbo: A Stitch in Crime|1973|Cr|
+11-08|15:25|5Action|Apache Rifles|1964|We|
+11-08|15:50|Legend|Operation Dunkirk|2017|W,A|
+11-08|15:56|GREAT! Movies|The Black Widow Killer|2018|T|
+11-08|16:30|Film4|The Kid Who Would Be King|2019|F,Fa|PG
+11-08|16:50|5USA|Columbo: Murder Under Glass|1978|Cr|
+11-08|16:50|ITV2|Evan Almighty|2007|C,F|PG
+11-08|16:55|Channel 5|Santa Who?|2000|F,X|
+11-08|17:00|Legend Xtra|MacShayne: Winner Takes All|1994|Cr,D|
+11-08|17:00|Movies24|Season's Greetings From…|2024|R,X|
+11-08|17:10|GREAT! TV|Carry On Nurse|1959|C|PG
+11-08|17:29|GREAT! Movies|The Killer Downstairs|2019|T|
+11-08|17:30|GREAT! Action|Paths of Glory|1957|W,D|PG
+11-08|17:40|Legend|Force 10 from Navarone|1978|W,A|
+11-08|18:00|E4|The Simpsons Movie|2007|An,C|PG
+11-08|18:20|5USA|Columbo: Now You See Him|1976|Cr|
+11-08|18:25|ITV1|Jurassic World Dominion|2022|A,S|12
+11-08|18:45|ITV2|Miss Congeniality|2000|C|12
+11-08|18:50|Film4|The Adjustment Bureau|2011|S,R|12
+11-08|19:00|Legend Xtra|MacShayne: Final Roll of the Dice|1994|Cr,D|
+11-08|19:00|Movies24|Happy Holidays from Cherry Lane|2024|R,X|
+11-08|19:00|Talking Pictures TV|My Cousin Rachel|1952|D,T|
+11-08|19:25|GREAT! Action|Force 10 from Navarone|1978|W,A|
+11-08|20:10|5USA|Columbo: Any Old Port in a Storm|1973|Cr|
+11-08|21:00|Film4|Dawn of the Planet of the Apes|2014|S,A|12
+11-08|21:00|GREAT! Mystery|Matchmaker Mysteries: A Killer Engagement|2019|T|
+11-08|21:00|GREAT! TV|French Connection II|1975|Cr,T|
+11-08|21:00|Legend|Rules of Engagement|2000|D,W|15
+11-08|21:00|Legend Xtra|Maximum Risk|1996|A|
+11-08|21:00|Movies24|Catch Me If You Claus|2023|R,X|
+11-08|21:50|GREAT! Action|Layer Cake|2004|Cr,T|15
+11-08|22:00|E4|The Inbetweeners Movie|2011|C|15
+11-08|22:10|Talking Pictures TV|The Runaway Train|1985|A,T|
+11-08|22:25|ITV4|Universal Soldier: Day of Reckoning|2012|A|18
+11-08|22:45|BBC Two|Tinker Tailor Soldier Spy|2011|T|15
+11-08|22:55|GREAT! Mystery|Murder 101: If Wishes Were Horses|2007|T|
+11-08|23:00|Movies24|Time for Him to Come Home for Christmas|2022|R,X|
+11-08|23:05|Legend Xtra|Red Sonja|1985|Fa,A|
+11-08|23:06|GREAT! Movies|A Farewell to Arms|1932|W,R|
+11-08|23:30|Channel 4|The Kitchen|2023|S,D|15
+11-08|23:35|Film4|Calm with Horses|2019|Cr,D|15
+11-08|23:40|Legend|Double Team|1997|A|
+11-09|00:00|E4|Crush|2022|C,R|
+11-09|00:05|4seven|Knock at the Cabin|2023|H,T|15
+11-09|00:05|GREAT! Action|The Punisher|2004|A|18
+11-09|00:42|GREAT! Movies|We Dive at Dawn|1943|W|
+11-09|00:50|GREAT! Mystery|Dead Lines|2010|T|
+11-09|01:00|Legend Xtra|Maximum Risk|1996|A|
+11-09|01:00|Movies24|Holiday Crashers|2023|R,X|
+11-09|01:30|Channel 4|Misericordia|2024|T,D|
+11-09|01:40|Film4|Shayda|2023|D|
+11-09|01:40|Legend|Stratton|2017|A|
+11-09|02:05|4seven|Swan Song|2021|S,D|
+11-09|02:15|GREAT! Mystery|Live Once, Die Twice|2006|T|
+11-09|02:30|Talking Pictures TV|Jail Bait|1954|Cr|
+11-09|03:00|Movies24|A Very Vermont Christmas|2024|R,X|
+11-09|03:05|Legend Xtra|Meteor Moon|2020|A,S|
+11-09|03:30|Legend|Jack's Back|1988|T|
+11-09|04:47|GREAT! Movies|Ride in the Whirlwind|1966|We|
+11-09|06:15|GREAT! Movies|Four Fast Guns|1960|We|
+11-09|07:00|Movies24|Single on the 25th|2025|R,X|
+11-09|07:10|Talking Pictures TV|Hollow Triumph|1948|Cr,T|
+11-09|07:34|GREAT! Movies|Johnson County War – Part 1|2002|We|
+11-09|08:10|GREAT! Mystery|The Gourmet Detective: Eat, Drink and Be Buried|2017|T|
+11-09|08:45|Talking Pictures TV|The Delavine Affair|1955|Cr|
+11-09|09:00|Legend Xtra|Meteor Moon|2020|A,S|
+11-09|09:00|Movies24|Believe in Christmas|2024|R,X|
+11-09|09:07|GREAT! Movies|Death Rides a Horse|1967|We|
+11-09|11:00|Film4|The Shepherd of the Hills|1941|D,We|
+11-09|11:00|Legend|Triassic Hunt|2020|A,S|
+11-09|11:00|Movies24|Trivia at St Nick's|2024|R,X|
+11-09|11:35|Talking Pictures TV|And the Same to You|1959|C|
+11-09|11:36|GREAT! Movies|Grandma Dearest|2020|T|
+11-09|12:00|5Action|The Fighting Kentuckian|1949|We|
+11-09|12:00|Legend Xtra|Megafault|2009|A,S|
+11-09|13:00|Film4|The True Story of Jesse James|1957|We|
+11-09|13:00|GREAT! Action|Comanche Station|1960|We|
+11-09|13:00|Legend|Operation Dunkirk|2017|W,A|
+11-09|13:00|Movies24|The Christmas Quest|2024|R,X|
+11-09|13:10|GREAT! Movies|A Mother Betrayed|2015|T|
+11-09|13:30|Talking Pictures TV|Sleeping Car to Trieste|1948|T|
+11-09|13:35|Channel 5|Three Wise Men and a Baby|2022|C,X|
+11-09|14:00|Legend Xtra|Trapped in Space|1995|S|
+11-09|14:05|5Action|In Old California|1942|We|
+11-09|14:41|GREAT! Movies|Killer Ending|2018|T|
+11-09|14:45|GREAT! Action|The Proud Rebel|1958|We|
+11-09|14:50|BBC Two|The Wooden Horse|1950|W|
+11-09|14:50|Film4|The Mouse That Roared|1959|C|U
+11-09|14:55|Legend|The Hunters|1958|W|
+11-09|15:00|Movies24|Holiday Touchdown: A Chiefs Love Story|2024|R,X|
+11-09|15:20|Channel 5|'Twas the Night Before Christmas|2023|R,X|
+11-09|15:20|Talking Pictures TV|Dangerous Cargo|1954|Cr|
+11-09|16:17|GREAT! Movies|Her Son's Secret|2018|T|
+11-09|16:30|Film4|Jubal|1956|We|
+11-09|16:35|Talking Pictures TV|Brighton Rock|1947|Cr,T|PG
+11-09|17:00|Legend Xtra|Weather Wars|2011|A,S|
+11-09|17:00|Movies24|Everything Christmas|2023|R,X|
+11-09|17:55|GREAT! Movies|Out of Control|2009|T|
+11-09|18:45|Film4|Men in Black: International|2019|S,C|12
+11-09|19:00|Movies24|Merry Ex-Mas|2014|R,X|
+11-09|19:29|GREAT! Movies|Saving My Daughter|2021|T|
+11-09|20:00|Talking Pictures TV|Maigret|0|Cr|
+11-09|21:00|Film4|War for the Planet of the Apes|2017|S,A|12
+11-09|21:00|GREAT! Action|Eliminators|2016|A|
+11-09|21:00|Legend|Shadow Man|2006|A|
+11-09|21:00|Legend Xtra|Assault on Precinct 13|2005|A,T|
+11-09|21:00|Movies24|All I Need for Christmas|2024|R,X|
+11-09|21:07|GREAT! Movies|Acts of Violence|2018|A|
+11-09|21:50|Talking Pictures TV|Bullshot|1983|C|
+11-09|22:00|4seven|Sexy Beast|2000|Cr|18
+11-09|22:46|GREAT! Movies|Jack Hunter and the Quest for Akhenaten's Tomb|2008|Ad|
+11-09|23:00|BBC Two|Mud|2012|D|12
+11-09|23:00|Legend|Marked for Death|1990|A|18
+11-09|23:00|Movies24|A Carol for Two|2024|R,X|
+11-09|23:15|Legend Xtra|Precious Cargo|2016|A|
+11-09|23:45|Film4|Anna|2019|A,T|15
+11-10|00:34|GREAT! Movies|Jet Stream|2013|A,S|
+11-10|01:00|Legend|Donnie Brasco|1997|Cr,D|18
+11-10|01:00|Movies24|Saving the Christmas Ranch|2025|R,X|
+11-10|01:10|Legend Xtra|Assault on Precinct 13|2005|A,T|
+11-10|01:55|GREAT! Mystery|A Cry for Justice|2013|T|
+11-10|02:05|Film4|The Future|2011|D,C|
+11-10|02:05|GREAT! Movies|Storm Chasers|1998|A|
+11-10|02:50|Talking Pictures TV|The First Travelling Saleslady|1956|We,C|
+11-10|03:00|Movies24|Christmas Under the Lights|2024|R,X|
+11-10|03:20|GREAT! Action|Meteor Storm|2010|A,S|
+11-10|03:20|Legend Xtra|Weather Wars|2011|A,S|
+11-10|03:25|Legend|In the Line of Duty|2019|A|
+11-10|03:35|GREAT! Mystery|Living with the Enemy|2005|T|
+11-10|04:19|GREAT! Movies|A Reason to Live, a Reason to Die|1972|We|
+11-10|05:59|GREAT! Movies|Rage at Dawn|1955|We|
+11-10|06:00|Talking Pictures TV|A Taste of Money|1960|Cr|
+11-10|07:00|Movies24|A Grand Ole Opry Christmas|2025|R,X|
+11-10|07:20|Talking Pictures TV|House of Blackmail|1953|Cr|
+11-10|07:37|GREAT! Movies|Ride in the Whirlwind|1966|We|
+11-10|08:10|GREAT! Mystery|An Aurora Teagarden Mystery: A Lesson in Murder|2024|T|
+11-10|08:45|Talking Pictures TV|Susan Lenox: Her Fall and Rise|1931|D,R|
+11-10|09:00|Legend Xtra|Trapped in Space|1995|S|
+11-10|09:00|Movies24|Christmas Above the Clouds|2025|R,X|
+11-10|09:05|GREAT! Movies|McLintock!|1963|We,C|
+11-10|11:00|Film4|They Rode West|1954|We|
+11-10|11:00|Legend|Apocalypse Pompeii|2014|A|
+11-10|11:00|Movies24|Season's Greetings From…|2024|R,X|
+11-10|11:25|Talking Pictures TV|Stranger in Town|1957|Cr|
+11-10|11:46|GREAT! Movies|The Wrong Daughter|2018|T|
+11-10|12:00|Legend Xtra|Weather Wars|2011|A,S|
+11-10|12:45|5Action|The Hired Hand|1971|We|
+11-10|12:45|Film4|The Nevadan|1950|We|
+11-10|13:00|GREAT! Action|Anzio|1968|W|
+11-10|13:00|Legend|Against a Crooked Sky|1975|We|
+11-10|13:00|Movies24|Happy Holidays from Cherry Lane|2024|R,X|
+11-10|13:35|Channel 5|Under the Christmas Tree|2021|R,X|
+11-10|13:35|Talking Pictures TV|The Love Match|1955|C|
+11-10|14:00|Legend Xtra|The Blood Beast Terror|1968|H|
+11-10|14:25|Film4|Send Me No Flowers|1964|C,R|
+11-10|14:35|5Action|Stranger on Horseback|1955|We|
+11-10|14:40|BBC Two|In Which We Serve|1942|W,D|U
+11-10|14:45|Legend|The Professionals|1966|We|
+11-10|15:00|Movies24|Mystery on Mistletoe Lane|2023|R,X|
+11-10|15:00|GREAT! Movies|Nanny Beware|2023|T|
+11-10|15:15|Talking Pictures TV|The Sea Shall Not Have Them|1954|W|
+11-10|15:20|Channel 5|The Holiday Stocking|2022|R,X|
+11-10|15:25|GREAT! Action|Paths of Glory|1957|W,D|PG
+11-10|16:30|Film4|The Golden Voyage of Sinbad|1973|Fa,Ad|U
+11-10|16:36|GREAT! Movies|Abducted: Fugitive for Love|2007|T|
+11-10|17:00|Legend Xtra|The Pledge|2008|T|
+11-10|17:00|Movies24|A Christmas Less Travelled|2024|R,X|
+11-10|17:05|Talking Pictures TV|Mr Denning Drives North|1951|Cr,T|
+11-10|18:00|Legend|Babylon 5: In the Beginning|1998|S|
+11-10|18:11|GREAT! Movies|Off the Rails|2017|T|
+11-10|18:40|Film4|Transformers: Rise of the Beasts|2023|A,S|12
+11-10|19:00|Movies24|The Spirit of Christmas Station|2025|R,X|
+11-10|19:45|GREAT! Movies|An Organized Killer|2021|T|
+11-10|20:00|Talking Pictures TV|Tales of Manhattan|1942|D,C|
+11-10|21:00|Film4|Cocaine Bear|2023|C,H|15
+11-10|21:00|GREAT! Action|Riddick|2013|S,A|15
+11-10|21:00|Legend|Red Sun|1971|We|
+11-10|21:00|Legend Xtra|The International|2009|T|15
+11-10|21:00|Movies24|A Very Vermont Christmas|2024|R,X|
+11-10|22:00|GREAT! Mystery|True Justice|2024|T|
+11-10|22:20|Talking Pictures TV|So Evil, So Young|1961|Cr|
+11-10|22:53|GREAT! Movies|Meteor Storm|2010|A,S|
+11-10|23:00|Film4|Three Billboards Outside Ebbing, Missouri|2017|D,Cr|15
+11-10|23:00|Movies24|Three Wiser Men and a Boy|2024|C,X|
+11-10|23:25|4seven|The Kitchen|2023|S,D|15
+11-10|23:25|BBC One|Knocked Up|2007|C|15
+11-10|23:25|Legend|Nick of Time|1995|T|15
+11-10|23:30|Legend Xtra|Momentum|2015|A,T|
+11-10|23:55|Talking Pictures TV|The Rough and the Smooth|1959|D|
+11-11|00:26|GREAT! Movies|Super Eruption|2011|A,S|
+11-11|01:00|Movies24|Single on the 25th|2025|R,X|
+11-11|01:15|Film4|Nomadland|2020|D|12
+11-11|01:20|Legend|Unthinkable|2010|T|
+11-11|01:30|Legend Xtra|A Reason to Live, a Reason to Die|1972|We|
+11-11|01:50|GREAT! Mystery|Fatal Flatline|2020|T|
+11-11|02:00|Talking Pictures TV|The Party's Over|1965|D|
+11-11|02:00|GREAT! Movies|Stonados|2013|A,S|
+11-11|03:00|Movies24|Sincerely, Truly Christmas|2023|R,X|
+11-11|03:10|Legend|The House That Dripped Blood|1971|H|
+11-11|03:20|GREAT! Action|Jet Stream|2013|A,S|
+11-11|03:20|Legend Xtra|The Pledge|2008|T|
+11-11|03:30|GREAT! Mystery|The Killer Downstairs|2019|T|
+11-11|04:29|GREAT! Movies|The Proud Rebel|1958|We|
+11-11|06:00|Talking Pictures TV|Fate Takes a Hand|1961|C|
+11-11|06:19|GREAT! Movies|Hellgate|1952|We|
+11-11|07:00|Movies24|Trivia at St Nick's|2024|R,X|
+11-11|07:45|Talking Pictures TV|The Dark Road|1948|Cr|
+11-11|07:52|GREAT! Movies|Kentucky Rifle|1955|We|
+11-11|08:10|GREAT! Mystery|An Aurora Teagarden Mystery: A Very Foul Play|2019|T|
+11-11|09:00|Legend Xtra|The Blood Beast Terror|1968|H|
+11-11|09:00|Movies24|Holiday Touchdown: A Chiefs Love Story|2024|R,X|
+11-11|09:15|Talking Pictures TV|Highly Dangerous|1950|T|
+11-11|10:00|Legend|Babylon 5: In the Beginning|1998|S|
+11-11|11:00|Film4|Destination Gobi|1953|W|
+11-11|11:00|Movies24|The Christmas Quest|2024|R,X|
+11-11|11:00|Talking Pictures TV|The Son of Monte Cristo|1940|Ad|
+11-11|12:00|Legend Xtra|The Pledge|2008|T|
+11-11|12:30|5Action|Whispering Smith|1948|We|
+11-11|12:50|Film4|This Gun for Hire|1942|Cr,T|
+11-11|13:00|GREAT! Action|Ride in the Whirlwind|1966|We|
+11-11|13:00|Legend|The Southern Star|1969|Ad|
+11-11|13:00|Movies24|Designing Christmas with You|2023|R,X|
+11-11|13:35|Channel 5|My Perfect Christmas Family|2022|R,X|
+11-11|13:55|Talking Pictures TV|My Cousin Rachel|1952|D,T|
+11-11|14:00|Legend Xtra|Age of the Dragons|2011|Fa,A|
+11-11|14:20|5Action|Young Guns of Texas|1962|We|
+11-11|14:25|BBC Two|Dunkirk|1958|W|
+11-11|14:30|Film4|The Comancheros|1961|We|
+11-11|14:50|GREAT! Action|Any Gun Can Play|1967|We|
+11-11|15:00|Legend|The Curse of the Werewolf|1961|H|
+11-11|15:00|Movies24|All I Need for Christmas|2024|R,X|
+11-11|15:15|Channel 5|Snowed In for Christmas|2022|R,X|
+11-11|15:50|Talking Pictures TV|Hobson's Choice|1954|C|U
+11-11|16:40|Film4|Earth vs the Flying Saucers|1956|S|
+11-11|17:00|Legend Xtra|Dark Storm|2006|A,S|
+11-11|17:00|Movies24|A Carol for Two|2024|R,X|
+11-11|18:00|Legend|Babylon 5: Thirdspace|1998|S|
+11-11|18:25|Film4|Moonfall|2022|S,A|12
+11-11|19:00|Movies24|Private Princess Christmas|2024|R,X|
+11-11|19:35|BBC Three|Bill|2015|F,C|PG
+11-11|21:00|5Star|Out of Time|2003|T|
+11-11|21:00|Film4|I.S.S.|2023|T,S|15
+11-11|21:00|GREAT! Action|Attack Force|2006|A|
+11-11|21:00|Legend|Outlander|2008|A,S|15
+11-11|21:00|Legend Xtra|Fortress: Sniper's Eye|2022|A|
+11-11|21:00|Movies24|Christmas Under the Lights|2024|R,X|
+11-11|21:10|Talking Pictures TV|Modesty Blaise|1966|C,A|
+11-11|22:00|GREAT! Mystery|True Justice: Eye for an Eye|2025|T|
+11-11|22:45|BBC Three|Knocked Up|2007|C|15
+11-11|22:45|ITV1|Terminator Salvation|2009|A,S|12
+11-11|22:50|Film4|Beast|2022|T,H|15
+11-11|23:00|Legend Xtra|Year of the Gun|1991|T|
+11-11|23:00|Movies24|A Christmas for the Ages|2023|R,X|
+11-11|23:25|Legend|Deep Rising|1998|H,A|15
+11-11|23:30|Talking Pictures TV|Adventures of a Plumber's Mate|1978|C|
+# Sky Cinema Premiere (and sister channels where marked), from tvradar
+11-05|01:55|Sky Cinema Premiere|Racewalkers|2025|C|
+11-05|03:20|Sky Cinema Premiere|Midwinter Break|2026|D|
+11-05|04:55|Sky Cinema Premiere|Kiss of the Spider Woman|2025|D,R|
+11-05|07:10|Sky Cinema Premiere|Finnegan's Foursome|2026|C|
+11-05|09:15|Sky Cinema Premiere|Splitsville|2025|C|
+11-05|11:05|Sky Cinema Premiere|Couples Weekend|2025|C|
+11-05|12:45|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-05|14:50|Sky Cinema Premiere|Mother's Pride|2026|C|
+11-05|16:25|Sky Cinema Premiere|Splitsville|2025|C|
+11-05|18:15|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-05|20:00|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-05|22:05|Sky Cinema Premiere|Scream 7|2026|H|
+11-06|00:05|Sky Cinema Premiere|Mother's Pride|2026|C|
+11-06|01:45|Sky Cinema Premiere|Mexicali|2026|A|
+11-06|04:20|Sky Cinema Premiere|Hitpig!|2024|An,F|
+11-06|06:00|Sky Cinema Premiere|Mutiny|2026|A|*
+11-06|07:40|Sky Cinema Premiere|Midwinter Break|2026|D|
+11-06|09:15|Sky Cinema Premiere|Splitsville|2025|C|
+11-06|09:25|Sky Cinema Action|Mutiny|2026|A|
+11-06|11:05|Sky Cinema Premiere|Mutiny|2026|A|
+11-06|12:45|Sky Cinema Premiere|Couples Weekend|2025|C|
+11-06|14:25|Sky Cinema Premiere|Mutiny|2026|A|
+11-06|16:05|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-06|17:55|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-06|20:00|Sky Cinema Premiere|Mutiny|2026|A|
+11-06|21:40|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-06|22:15|Sky Cinema Action|Mutiny|2026|A|
+11-06|23:35|Sky Cinema Premiere|Kiss of the Spider Woman|2025|D,R|
+11-07|01:45|Sky Cinema Premiere|Racewalkers|2025|C|
+11-07|03:15|Sky Cinema Premiere|Mexicali|2026|A|
+11-07|05:05|Sky Cinema Premiere|Finnegan's Foursome|2026|C|
+11-07|07:10|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|*
+11-07|08:45|Sky Cinema Premiere|Mutiny|2026|A|
+11-07|10:25|Sky Cinema Premiere|Finnegan's Foursome|2026|C|
+11-07|11:40|Sky Cinema Action|Mutiny|2026|A|
+11-07|12:40|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-07|14:45|Sky Cinema Premiere|Mutiny|2026|A|
+11-07|16:30|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-07|18:05|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-07|18:10|Sky Cinema Action|Mutiny|2026|A|
+11-07|20:00|Sky Cinema Premiere|Mutiny|2026|A|
+11-07|21:40|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-07|23:45|Sky Cinema Premiere|Scream 7|2026|H|
+11-08|01:40|Sky Cinema Premiere|Splitsville|2025|C|
+11-08|03:35|Sky Cinema Premiere|Midwinter Break|2026|D|
+11-08|05:55|Sky Cinema Premiere|Racewalkers|2025|C|
+11-08|07:20|Sky Cinema Premiere|Mutiny|2026|A|
+11-08|09:00|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-08|09:55|Sky Cinema Family|Hitpig!|2024|An,F|
+11-08|11:05|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-08|12:35|Sky Cinema Premiere|Splitsville|2025|C|
+11-08|14:25|Sky Cinema Premiere|Mutiny|2026|A|
+11-08|16:05|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-08|16:30|Sky Cinema Action|Mutiny|2026|A|
+11-08|17:55|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-08|20:00|Sky Cinema Premiere|Mutiny|2026|A|
+11-08|21:45|Sky Cinema Premiere|Forbidden Fruits|2026|C|*
+11-08|22:00|Sky Cinema Action|Mutiny|2026|A|
+11-08|23:40|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-09|01:10|Sky Cinema Premiere|Couples Weekend|2025|C|
+11-09|02:55|Sky Cinema Premiere|Racewalkers|2025|C|
+11-09|04:25|Sky Cinema Premiere|Forbidden Fruits|2026|C|
+11-09|06:15|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-09|07:10|Sky Cinema Comedy|Mother's Pride|2026|C|
+11-09|07:50|Sky Cinema Premiere|Midwinter Break|2026|D|
+11-09|09:25|Sky Cinema Premiere|Mutiny|2026|A|
+11-09|09:50|Sky Cinema 302|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-09|11:05|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-09|12:30|Sky Cinema Action|Mutiny|2026|A|
+11-09|13:00|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-09|14:30|Sky Cinema Premiere|Mutiny|2026|A|
+11-09|16:10|Sky Cinema Premiere|Forbidden Fruits|2026|C|
+11-09|18:00|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-09|18:20|Sky Cinema Action|Mutiny|2026|A|
+11-09|20:00|Sky Cinema Premiere|Mutiny|2026|A|
+11-09|21:45|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-09|23:30|Sky Cinema Premiere|Forbidden Fruits|2026|C|
+11-09|23:45|Sky Cinema Comedy|Mother's Pride|2026|C|
+11-10|01:20|Sky Cinema Premiere|Kiss of the Spider Woman|2025|D,R|
+11-10|03:35|Sky Cinema Premiere|Finnegan's Foursome|2026|C|
+11-10|05:40|Sky Cinema Premiere|Racewalkers|2025|C|
+11-10|07:05|Sky Cinema Premiere|Couples Weekend|2025|C|
+11-10|08:45|Sky Cinema Premiere|Kiss of the Spider Woman|2025|D,R|
+11-10|10:55|Sky Cinema Premiere|Forbidden Fruits|2026|C|
+11-10|12:45|Sky Cinema Premiere|Mutiny|2026|A|
+11-10|14:25|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-10|16:00|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-10|18:05|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-10|20:00|Sky Cinema Premiere|Mutiny|2026|A|
+11-10|21:40|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-10|22:00|Sky Cinema Action|Mutiny|2026|A|
+11-10|23:45|Sky Cinema Premiere|Forbidden Fruits|2026|C|
+11-11|01:30|Sky Cinema Premiere|Finnegan's Foursome|2026|C|
+11-11|03:35|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-11|05:05|Sky Cinema Premiere|Racewalkers|2025|C|
+11-11|06:30|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-11|08:00|Sky Cinema Premiere|Mutiny|2026|A|
+11-11|09:40|Sky Cinema Premiere|Midwinter Break|2026|D|
+11-11|11:15|Sky Cinema Premiere|Splitsville|2025|C|
+11-11|13:05|Sky Cinema Premiere|Mutiny|2026|A|
+11-11|14:45|Sky Cinema Premiere|Couples Weekend|2025|C|
+11-11|16:25|Sky Cinema Premiere|Holiday Touchdown: A Bears Love Story|2026|R,X|
+11-11|17:55|Sky Cinema Premiere|Reminders of Him|2026|D,R|
+11-11|18:20|Sky Cinema Action|Mutiny|2026|A|
+11-11|20:00|Sky Cinema Premiere|Mutiny|2026|A|
+11-11|21:45|Sky Cinema Premiere|How to Make a Killing|2026|Cr|
+11-11|23:40|Sky Cinema Premiere|Scream 7|2026|H|

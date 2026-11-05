@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>WhatsOn Film</title>
+<meta name="theme-color" content="#0f0d12">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* One phone-width column, sticky control deck, day-grouped film cards, bottom sheets. Same family as WhatsOn Sport, warmer "cinema at night" palette. */
+:root{
+  --bg:#0f0d12;--panel:#18151d;--panel2:#211d27;--line:#2f2a37;
+  --ink:#f1edf5;--mute:#9a92a6;--dim:#6f6879;
+  --free:#2fbf71;--sub:#e0a339;--acc:#f2b84b;--accink:#1a1206;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#f6f4f8;--panel:#ffffff;--panel2:#f0edf3;--line:#ddd7e3;--ink:#16121b;--mute:#564e61;--dim:#736b7e;
+  --free:#1a8f50;--sub:#9a6200;--acc:#b07800;--accink:#ffffff;color-scheme:light}}
+:root[data-theme="light"]{
+  --bg:#f6f4f8;--panel:#ffffff;--panel2:#f0edf3;--line:#ddd7e3;--ink:#16121b;--mute:#564e61;--dim:#736b7e;
+  --free:#1a8f50;--sub:#9a6200;--acc:#b07800;--accink:#ffffff;color-scheme:light}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);-webkit-font-smoothing:antialiased;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-top:env(safe-area-inset-top,0px)}
+button,a{font:inherit;color:inherit}
+button:focus-visible,a:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.wrap{max-width:760px;margin:0 auto;padding-bottom:90px}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);padding:12px 0 8px;border-bottom:1px solid var(--line)}
+.brand{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.brand h1{white-space:nowrap;font-family:var(--display);font-weight:800;font-size:27px;margin:0;letter-spacing:.4px;text-transform:uppercase;line-height:1}
+.brand h1 span{color:var(--acc)}
+.wk{font-size:12px;color:var(--mute);margin-top:4px}
+.acts{display:flex;gap:6px;flex:none}
+.brand>div:first-child{min-width:0}
+@media (max-width:420px){.brand h1{font-size:23px}.btn{padding:8px 9px}}
+.btn{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:8px 11px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap}
+.btn.primary{background:var(--acc);color:var(--accink);border-color:var(--acc)}
+.seg{display:flex;gap:6px;padding-top:10px}
+.seg button{flex:1;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:8px;font-weight:700;font-size:13px;cursor:pointer;color:var(--mute)}
+.seg button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.row{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-top:9px}
+.row::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--panel);color:var(--mute);border-radius:999px;padding:6px 11px;font-size:13px;font-weight:600;cursor:pointer}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.lbl{flex:none;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);align-self:center;padding-right:2px}
+.days{display:flex;gap:5px;padding-top:9px}
+.day-b{flex:1 1 0;min-width:0;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:6px 0;text-align:center;cursor:pointer}
+.day-b b{display:block;font-size:11px;color:var(--mute);font-weight:600}
+.day-b i{display:block;font-style:normal;font-family:var(--display);font-weight:800;font-size:19px;line-height:1.1}
+.day-b small{display:block;font-size:10px;color:var(--dim)}
+.day-b.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.day-b.on b,.day-b.on small{color:var(--bg)}
+.day-b.empty i{opacity:.4}
+.banner{margin-top:12px;background:var(--panel);border:1px dashed var(--line);border-radius:12px;padding:11px 13px;font-size:13px;color:var(--mute);line-height:1.45}
+.banner b{color:var(--ink)}
+.dayhead{font-family:var(--display);font-weight:700;font-size:19px;text-transform:uppercase;letter-spacing:1px;color:var(--mute);margin:22px 0 9px;padding-bottom:6px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:8px;scroll-margin-top:calc(var(--hh,200px) + 6px)}
+.dayhead small{font-family:var(--body);font-size:12px;letter-spacing:0;text-transform:none;color:var(--dim);font-weight:500}
+.sub{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);margin:14px 0 8px}
+.card{display:grid;grid-template-columns:58px minmax(0,1fr) auto;gap:12px;align-items:start;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--c,#888);border-radius:12px;padding:12px;margin-bottom:8px}
+.time{font-family:var(--display);font-weight:800;font-size:24px;line-height:1;font-variant-numeric:tabular-nums}
+.time small{display:block;font-family:var(--body);font-size:10px;font-weight:700;color:var(--dim);margin-top:5px;letter-spacing:.4px;text-transform:uppercase}
+.title{font-weight:700;font-size:16px;line-height:1.25}
+.title span{font-weight:500;color:var(--dim);font-size:13px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px;align-items:center}
+.g{font-size:11px;font-weight:600;color:var(--mute);background:var(--panel2);border-radius:6px;padding:3px 7px}
+.prem{font-size:11px;font-weight:800;color:var(--accink);background:var(--acc);border-radius:6px;padding:3px 7px;text-transform:uppercase;letter-spacing:.4px}
+.ch{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font-size:13px;font-weight:600}
+.dot{width:8px;height:8px;border-radius:50%;flex:none}
+.dot.free{background:var(--free)}.dot.sub{background:var(--sub)}
+.ch a{color:var(--mute);font-weight:500;text-decoration:underline;text-underline-offset:2px}
+.cert{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:15px;color:#fff;flex:none}
+.cert.U{background:#0f9d58}.cert.PG{background:#e5a50a;color:#1a1206}.cert.c12{background:#f07c1e}.cert.c15{background:#e2366b}.cert.c18{background:#d32f2f}.cert.TBC{background:var(--panel2);color:var(--dim);font-size:11px;border:1px solid var(--line)}
+.also{font-size:12px;color:var(--mute);margin-top:6px}
+.on-now{box-shadow:0 0 0 1px var(--acc) inset}
+.time.live{color:var(--acc);font-size:22px}
+.live-h{color:var(--acc)}
+.bar{height:4px;background:var(--panel2);border-radius:3px;margin-top:9px;overflow:hidden}.bar i{display:block;height:100%;background:var(--acc)}
+.more{display:block;width:100%;margin:12px 0 4px;color:var(--mute)}
+.past{opacity:.7}
+.empty-note{color:var(--mute);font-size:14px;background:var(--panel);border:1px dashed var(--line);border-radius:12px;padding:14px;line-height:1.45}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mute);margin-top:18px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.src{font-size:12px;color:var(--dim);margin-top:16px;line-height:1.5}
+.src a{color:var(--mute)}
+/* sheet */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:40}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;background:var(--panel);border-top-left-radius:18px;border-top-right-radius:18px;max-height:82vh;overflow:auto;padding:18px max(18px,env(safe-area-inset-left,0px)) calc(18px + env(safe-area-inset-bottom,0px));max-width:760px;margin:0 auto;border:1px solid var(--line)}
+.sheet h2{font-family:var(--display);font-size:24px;text-transform:uppercase;margin:0 0 4px}
+.sheet p{color:var(--mute);font-size:14px;line-height:1.5;margin:6px 0 12px}
+.svc{display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center;background:var(--panel2);border-radius:12px;padding:12px;margin-bottom:8px}
+.svc b{font-size:15px}.svc em{font-style:normal;color:var(--mute);font-size:13px;grid-column:1/-1}
+.svc .n{font-family:var(--display);font-weight:800;font-size:24px}
+.svc a{grid-column:1/-1;font-size:13px;color:var(--acc);font-weight:700;text-decoration:none}
+.close{float:right}
+/* ad */
+.ad{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--panel2);border-top:1px solid var(--line);padding:9px 16px calc(9px + env(safe-area-inset-bottom,0px));font-size:13px;color:var(--mute);display:flex;justify-content:center;gap:8px;align-items:center}
+.ad b{color:var(--ink)}
+.ad small{font-size:10px;text-transform:uppercase;letter-spacing:.6px;border:1px solid var(--line);border-radius:4px;padding:1px 4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top" id="top">
+    <div class="brand">
+      <div><h1>WhatsOn <span>Film</span></h1><div class="wk" id="wk"></div></div>
+      <div class="acts">
+        <button class="btn primary" id="needBtn">Which service?</button>
+        <button class="btn" id="themeBtn" aria-label="Switch light or dark">☾</button>
+      </div>
+    </div>
+    <div class="seg" id="weeks"></div>
+    <div class="days" id="days"></div>
+    <div class="row" id="where"></div>
+    <div class="row" id="bands"></div>
+    <div class="row" id="ages"></div>
+    <div class="row" id="genres"></div>
+  </header>
+  <main id="list"></main>
+  <div class="legend">
+    <span><i class="dot free"></i>Free to watch</span>
+    <span><i class="dot sub"></i>Subscription</span>
+    <span><i class="cert U" style="width:18px;height:18px;font-size:10px">U</i>BBFC certificate</span>
+  </div>
+  <div class="src" id="src"></div>
+</div>
+<div class="ad" id="ad"></div>
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true"></div>
+
+<script>
+/*DATA*/
+(function(){
+const $=id=>document.getElementById(id);
+const UPDATED='Thu 5 Nov 2026';
+const WEEKS=['2026-11-02','2026-11-09'];
+const WD=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const LONG={Sun:'Sunday',Mon:'Monday',Tue:'Tuesday',Wed:'Wednesday',Thu:'Thursday',Fri:'Friday',Sat:'Saturday'};
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const TV_UNTIL='2026-11-11';      // free-TV and Sky listings published to here
+const TV_FROM='2026-11-05';       // listings gathered from here
+const GENRE_COL={Action:'#e5534b',Adventure:'#e08a3c',Animation:'#7cc4ff',Christmas:'#2fbf71',Comedy:'#f2b84b',Crime:'#a78bfa',Drama:'#8b97a7',Family:'#5ad1c4',Fantasy:'#c58af9','Sci-fi':'#4fa3ff',Horror:'#d32f2f',Romance:'#f06292',Thriller:'#9575cd',War:'#8d6e63',Western:'#c19a6b'};
+const CERTS=['U','PG','12','15','18'];
+
+const items=[];
+TV.forEach(r=>items.push({d:r[0],t:r[1],ch:r[2],title:r[3],y:r[4],g:r[5].split(','),c:r[6],prem:r[7]==='Premiere',kind:'tv'}));
+STREAM.forEach(r=>items.push({d:r[0],t:'',ch:r[1],title:r[2],y:r[3],g:r[4].split(','),c:r[5],note:r[6],kind:'stream',prem:/premiere/i.test(r[6])}));
+const GENRES=[...new Set(items.flatMap(i=>i.g))].sort();
+
+let st={w:0,day:null,where:'all',age:'all',band:'all',genre:new Set()};
+const BANDS=[['all','Any time'],['morning','Morning'],['afternoon','Afternoon'],['evening','Evening'],['late','Late night']];
+const BAND_TXT={morning:'Morning · 5am–noon',afternoon:'Afternoon · noon–5pm',evening:'Evening · 5pm–10pm',late:'Late night · 10pm–midnight'};
+const bandOf=t=>t>='05:00'&&t<'12:00'?'morning':t>='12:00'&&t<'17:00'?'afternoon':t>='17:00'&&t<'22:00'?'evening':'late';
+try{const s=JSON.parse(localStorage.getItem('wof')||'{}');if(s.age)st.age=s.age;if(s.where)st.where=s.where;if(s.band)st.band=s.band;if(s.genre)st.genre=new Set(s.genre);}catch(e){}
+function save(){try{localStorage.setItem('wof',JSON.stringify({age:st.age,where:st.where,band:st.band,genre:[...st.genre]}))}catch(e){}}
+
+const pd=s=>{const[a,b,c]=s.split('-').map(Number);return new Date(Date.UTC(a,b-1,c))};
+const iso=d=>d.toISOString().slice(0,10);
+const addD=(s,n)=>{const d=pd(s);d.setUTCDate(d.getUTCDate()+n);return iso(d)};
+const today=()=>{const n=new Date();return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/London',year:'numeric',month:'2-digit',day:'2-digit'}).format(n)};
+const certCls=c=>c==='TBC'?'TBC':(/\d/.test(c)?'c'+c:c);
+const kind=ch=>(CH[ch]||{}).t||'free';
+
+function pass(i){
+  if(st.where==='free'&&kind(i.ch)!=='free')return false;
+  if(st.where==='sky'&&!/Sky/.test(i.ch))return false;
+  if(st.where==='netflix'&&i.ch!=='Netflix')return false;
+  if(st.age!=='all'){ if(i.c==='TBC')return false; if(CERTS.indexOf(i.c)>CERTS.indexOf(st.age))return false; }
+  if(st.genre.size&&!i.g.some(g=>st.genre.has(g)))return false;
+  if(st.band!=='all'&&i.kind==='tv'&&bandOf(i.t)!==st.band)return false;
+  return true;
+}
+
+function chips(el,opts,cur,on){el.innerHTML='';opts.forEach(([v,l])=>{const b=document.createElement('button');b.className='chip'+((typeof cur==='function'?cur(v):cur===v)?' on':'');b.textContent=l;b.onclick=()=>on(v);el.appendChild(b)})}
+
+function renderTop(){
+  const ws=WEEKS[st.w];
+  $('wk').textContent=`${pd(ws).getUTCDate()}–${pd(addD(ws,6)).getUTCDate()} ${MON[pd(addD(ws,6)).getUTCMonth()]} · UK times · updated ${UPDATED.replace(' 2026','')}`;
+  $('weeks').innerHTML='';
+  ['This week','Next week'].forEach((l,k)=>{const b=document.createElement('button');b.textContent=l;b.className=st.w===k?'on':'';b.onclick=()=>{st.w=k;st.day=null;render();window.scrollTo({top:0})};$('weeks').appendChild(b)});
+  $('days').innerHTML='';
+  for(let k=0;k<7;k++){const d=addD(ws,k),dt=pd(d);const n=new Set(items.filter(i=>i.d===d&&pass(i)).map(i=>i.title)).size;
+    const b=document.createElement('button');b.className='day-b'+(st.day===d?' on':'')+(n?'':' empty');
+    b.innerHTML=`<b>${WD[dt.getUTCDay()]}</b><i>${dt.getUTCDate()}</i><small>${n||'–'}</small>`;
+    b.setAttribute('aria-label',`${LONG[WD[dt.getUTCDay()]]} ${dt.getUTCDate()}, ${n} films`);
+    b.onclick=()=>{st.day=d;const h=$('d-'+d);if(h)h.scrollIntoView({behavior:'smooth'});renderTop()};
+    $('days').appendChild(b)}
+  chips($('where'),[['all','All channels'],['free','Free TV only'],['sky','Sky Cinema'],['netflix','Netflix']],st.where,v=>{st.where=v;save();render()});
+  $('where').prepend(Object.assign(document.createElement('span'),{className:'lbl',textContent:'Where'}));
+  chips($('bands'),BANDS,st.band,v=>{st.band=v;save();render()});
+  $('bands').prepend(Object.assign(document.createElement('span'),{className:'lbl',textContent:'Time'}));
+  chips($('ages'),[['all','Any age'],['U','U'],['PG','Up to PG'],['12','Up to 12'],['15','Up to 15'],['18','Up to 18']],st.age,v=>{st.age=v;save();render()});
+  $('ages').prepend(Object.assign(document.createElement('span'),{className:'lbl',textContent:'Age'}));
+  chips($('genres'),[['__all','All genres'],...GENRES.map(g=>[g,g])],v=>v==='__all'?!st.genre.size:st.genre.has(v),v=>{if(v==='__all')st.genre.clear();else st.genre.has(v)?st.genre.delete(v):st.genre.add(v);save();render()});
+  $('genres').prepend(Object.assign(document.createElement('span'),{className:'lbl',textContent:'Genre'}));
+  document.documentElement.style.setProperty('--hh',$('top').offsetHeight+'px');
+}
+
+// ---- timing: listings are UK time; November is GMT so UK time = UTC ----
+const NOW=()=>window.__NOW||Date.now();
+const ts=i=>{const[h,m]=i.t.split(':').map(Number);return pd(i.d).getTime()+(h*60+m)*60000};
+(function ends(){const by={};items.filter(i=>i.kind==='tv').forEach(i=>{i.s=ts(i);(by[i.ch]=by[i.ch]||[]).push(i)});
+  Object.values(by).forEach(l=>{l.sort((a,b)=>a.s-b.s);l.forEach((i,k)=>{const n=l[k+1];const gap=n?n.s-i.s:Infinity;i.e=Math.min(n?n.s:Infinity,i.s+150*60000);})})})();
+const hm=ms=>{const d=new Date(ms);return String(d.getUTCHours()).padStart(2,'0')+':'+String(d.getUTCMinutes()).padStart(2,'0')};
+
+// group repeats of the same film on a day: first item shown, others listed as "Also at"
+function group(list){const m=new Map();list.forEach(i=>{const k=i.title.toLowerCase()+'|'+i.y;if(!m.has(k)){m.set(k,i);i.also=[]}else m.get(k).also.push(i)});return [...m.values()]}
+
+function card(i,mode){
+  const c=CH[i.ch]||{};const col=GENRE_COL[i.g[0]]||'#888';
+  const watch=c.app&&c.url?` · <a href="${c.url}" target="_blank" rel="noopener">${i.kind==='stream'?'Open '+c.app:'Watch on '+c.app}</a>`:'';
+  let left;
+  if(i.kind==='stream')left=`<div class="time" style="font-size:17px;color:var(--acc)">NEW<small>streaming</small></div>`;
+  else if(mode==='now')left=`<div class="time live">ON<small>since ${i.t}</small></div>`;
+  else left=`<div class="time">${i.t}<small>${{morning:'morn',afternoon:'aft',evening:'eve',late:'late'}[bandOf(i.t)]}</small></div>`;
+  const also=(i.also||[]).length?`<div class="also">Also at ${i.also.map(a=>a.t+(a.ch!==i.ch?` (${esc(a.ch)})`:'')).join(', ')}</div>`:'';
+  const prog=mode==='now'?`<div class="bar"><i style="width:${Math.min(100,Math.max(3,(NOW()-i.s)/(i.e-i.s)*100)).toFixed(0)}%"></i></div><div class="also">Until about ${hm(i.e)}</div>`:'';
+  return `<article class="card${mode==='now'?' on-now':''}" style="--c:${col}">${left}
+   <div><div class="title">${esc(i.title)} ${i.y?`<span>(${i.y})</span>`:''}</div>
+   <div class="meta">${i.prem?'<span class="prem">Premiere</span>':''}${i.g.map(g=>`<span class="g">${g}</span>`).join('')}${i.note&&!i.prem?`<span class="g">${esc(i.note)}</span>`:''}</div>
+   <div class="ch"><i class="dot ${kind(i.ch)}"></i>${esc(i.ch)}${watch}</div>${prog}${also}</div>
+   <div class="cert ${certCls(i.c)}" title="${i.c==='TBC'?'Certificate to be checked':'BBFC '+i.c}">${i.c==='TBC'?'TBC':i.c}</div></article>`;
+}
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+
+function bandHtml(tv){let h='',cur='';tv.forEach(i=>{const b=i.t<'05:00'?'overnight':bandOf(i.t);if(b!==cur){cur=b;h+=`<div class="sub">${b==='overnight'?'Overnight · midnight–5am':BAND_TXT[b]}</div>`}h+=card(i)});return h}
+
+function render(){
+  renderTop();
+  const ws=WEEKS[st.w];let html='';const tdy=today();const now=NOW();
+  html+=`<div class="banner">${st.w===0?'<b>This week:</b> TV listings start from Thu 5 Nov.':'<b>Next week:</b> TV listings are published up to Wed 11 Nov; Thu–Sun will be added as channels release them.'} Certificates marked <b>TBC</b> are new or TV films we haven't confirmed yet — they're hidden when you pick an age.</div>`;
+  for(let k=0;k<7;k++){const d=addD(ws,k),dt=pd(d);
+    const day=items.filter(i=>i.d===d&&pass(i));
+    const tvAll=day.filter(i=>i.kind==='tv').sort((a,b)=>a.s-b.s);
+    const sm=day.filter(i=>i.kind==='stream');
+    const isToday=d===tdy;
+    html+=`<h2 class="dayhead" id="d-${d}">${isToday?'Today':LONG[WD[dt.getUTCDay()]]} <small>${isToday?LONG[WD[dt.getUTCDay()]]+' ':''}${dt.getUTCDate()} ${MON[dt.getUTCMonth()]}</small></h2>`;
+    if(!tvAll.length&&!sm.length){
+      const why=d<TV_FROM?'Listings start from Thursday 5 November.':d>TV_UNTIL?'TV listings for this day aren’t out yet.':'No films match your filters.';
+      html+=`<div class="empty-note">${why}</div>`;continue}
+    if(isToday){
+      const done=tvAll.filter(i=>i.e<=now), live=tvAll.filter(i=>i.s<=now&&i.e>now), up=tvAll.filter(i=>i.s>now);
+      // repeats: a film on now absorbs its later showings; otherwise next showing leads
+      const g=group([...live,...up]);
+      const gl=g.filter(i=>i.s<=now), soon=g.filter(i=>i.s>now&&i.s<=now+2*3600e3), later=g.filter(i=>i.s>now+2*3600e3);
+      if(gl.length)html+=`<div class="sub live-h">On now · ${hm(now)}</div>`+gl.map(i=>card(i,'now')).join('');
+      if(sm.length)html+=`<div class="sub">New to stream today</div>`+sm.map(i=>card(i)).join('');
+      if(soon.length)html+=`<div class="sub">Starting soon · next 2 hours</div>`+soon.map(i=>card(i)).join('');
+      if(later.length)html+=bandHtml(later);
+      if(!gl.length&&!soon.length&&!later.length)html+=`<div class="empty-note">Nothing else on today that matches your filters.</div>`;
+      if(done.length){html+=`<button class="btn more" id="earlierBtn">${st.earlier?'Hide':'Show'} ${group(done).length} earlier film${group(done).length>1?'s':''} today</button>`;
+        if(st.earlier)html+=`<div class="past">`+bandHtml(group(done))+`</div>`}
+      continue;
+    }
+    if(sm.length)html+=`<div class="sub">New to stream</div>`+sm.map(i=>card(i)).join('');
+    if(tvAll.length)html+=bandHtml(group(tvAll));
+    if(!tvAll.length&&d>TV_UNTIL)html+=`<div class="empty-note">TV listings for this day aren’t out yet.</div>`;
+  }
+  $('list').innerHTML=html;
+  const eb=$('earlierBtn');if(eb)eb.onclick=()=>{st.earlier=!st.earlier;render()};
+}
+
+function needSheet(){
+  const ws=WEEKS[st.w];const inWk=items.filter(i=>i.d>=ws&&i.d<=addD(ws,6)&&passNoWhere(i));
+  const by=s=>new Set(inWk.filter(s).map(i=>i.title)).size;
+  const free=by(i=>kind(i.ch)==='free'),sky=by(i=>/Sky/.test(i.ch)),nf=by(i=>i.ch==='Netflix');
+  $('sheet').innerHTML=`<button class="btn close" id="x">Close</button><h2>Which service do I need?</h2>
+   <p>Different films matching your age and genre filters ${st.w===0?'this':'next'} week, by where they're on.</p>
+   <div class="svc"><b>Free TV (Freeview)</b><span class="n">${free}</span><em>BBC, ITV, Channel 4, Film4, 5, Legend, GREAT! and more. Catch up free on iPlayer, ITVX, Channel 4 and My5.</em></div>
+   <div class="svc"><b>Sky Cinema / NOW Cinema</b><span class="n">${sky}</span><em>A new Sky Cinema premiere most days. No Sky box? NOW Cinema is a monthly pass with no contract.</em><a href="https://www.nowtv.com/watch/cinema" target="_blank" rel="noopener">See NOW Cinema →</a></div>
+   <div class="svc"><b>Netflix</b><span class="n">${nf}</span><em>New films added this week.</em><a href="https://www.netflix.com" target="_blank" rel="noopener">Open Netflix →</a></div>
+   <p style="font-size:12px">Free TV covers most films. Only pay for a month when the films you want are on it — you can switch each month.</p>`;
+  openSheet();$('x').onclick=closeSheet;
+}
+function passNoWhere(i){const w=st.where;st.where='all';const r=pass(i);st.where=w;return r}
+function openSheet(){$('sheet').hidden=false;$('scrim').hidden=false;$('x')&&$('x').focus()}
+function closeSheet(){$('sheet').hidden=true;$('scrim').hidden=true;$('needBtn').focus()}
+$('needBtn').onclick=needSheet;$('scrim').onclick=closeSheet;
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('sheet').hidden)closeSheet()});
+$('themeBtn').onclick=()=>{const r=document.documentElement;const dark=getComputedStyle(r).colorScheme.includes('dark');r.dataset.theme=dark?'light':'dark';try{localStorage.setItem('woft',r.dataset.theme)}catch(e){}};
+try{const t=localStorage.getItem('woft');if(t)document.documentElement.dataset.theme=t}catch(e){}
+
+const ADS=[['Your advert here','Reach UK film fans planning their week'],['WhatsOn Sport','Live sport on UK TV — same team, same idea'],['Advertise with WhatsOn','Banner space available']];
+let ai=0;function ad(){const[a,b]=ADS[ai];$('ad').innerHTML=`<small>Ad</small><b>${a}</b><span>${b}</span>`;ai=(ai+1)%ADS.length}
+ad();setInterval(ad,6000);
+
+$('src').innerHTML='Listings: <a href="https://tvradar.uk/films-on-tv-this-week" target="_blank" rel="noopener">tvradar.uk</a> (free TV and Sky Cinema), <a href="https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-uk-in-november-2026/" target="_blank" rel="noopener">What’s on Netflix</a>, Digital Spy (Sky Cinema premieres). All films on the listed channels, 24 hours a day. Times can change — check your TV guide. Test version.';
+
+// start on today if it's in this week
+const t=today();if(t>=WEEKS[0]&&t<=addD(WEEKS[0],6))st.day=t; else if(t>=WEEKS[1]&&t<=addD(WEEKS[1],6)){st.w=1;st.day=t}
+render();
+setInterval(()=>{if($('sheet').hidden)render()},60000);
+if(st.day){const h=$('d-'+st.day);if(h)setTimeout(()=>h.scrollIntoView(),50)}
+window.addEventListener('resize',()=>document.documentElement.style.setProperty('--hh',$('top').offsetHeight+'px'));
+})();
+</script>
+</body></html>
